@@ -4,8 +4,8 @@ import pandas as pd
 # Chargement des données (cache pour éviter de recharger à chaque exécution)
 @st.cache_data
 def load_data():
-    df_artists = pd.read_csv("../data/artists.csv", encoding="utf-8")
-    df_track = pd.read_csv("../data/tracks.csv", encoding="utf-8")
+    df_artists = pd.read_csv("data/artists.csv", encoding="utf-8")
+    df_track = pd.read_csv("data/tracks.csv", encoding="utf-8")
 
     # Renommage et nettoyage des colonnes
     df_artists.rename(columns={'name': 'artists'}, inplace=True)
