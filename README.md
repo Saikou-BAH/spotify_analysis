@@ -55,8 +55,11 @@ pip install -r requirements.txt
 
 Pour exécuter les applications, utilisez :
 
-streamlit run Scripts/app1.py  # Pour la recherche d'artistes et de titres
-streamlit run Scripts/app2.py  # Pour le filtrage par année et genre
+# Pour la recherche d'artistes et de titres
+streamlit run Scripts/app1.py
+
+# Pour le filtrage par année et genre
+streamlit run Scripts/app2.py  
 
 ## **5. Exploration des Données & Résultats**
 
