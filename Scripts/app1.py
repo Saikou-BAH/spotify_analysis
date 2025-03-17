@@ -19,9 +19,9 @@ st.markdown("""
 # Chargement des données (mise en cache pour éviter de recharger à chaque exécution)
 @st.cache_data
 def load_data():
-    df_artists = pd.read_csv("../data/artists.csv", encoding="utf-8")
-    df_track = pd.read_csv("../data/tracks.csv", encoding="utf-8")
-    df_top200 = pd.read_csv("../data/spotify_top200_global.csv", encoding="utf-8")
+    df_artists = pd.read_csv("data/artists.csv", encoding="utf-8")
+    df_track = pd.read_csv("data/tracks.csv", encoding="utf-8")
+    df_top200 = pd.read_csv("data/spotify_top200_global.csv", encoding="utf-8")
 
     # Nettoyage rapide des colonnes
     df_artists.rename(columns={'name': 'artists'}, inplace=True)
