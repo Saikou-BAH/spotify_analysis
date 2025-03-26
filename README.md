@@ -110,5 +110,5 @@ Les résultats obtenus confirment la concentration de l'industrie musicale autou
 
 ### **9. Contact**
 
-Pour toute question ou suggestion, contactez-moi via mon site : saikou-bah.github.io/mon_site_public
+Pour toute question ou suggestion, contactez-moi via mon site : **https://saikou-bah.github.io/Portfolio_/#portfolio**
 
